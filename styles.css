@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(3, 1, 26);
+}
+
+
+.weather-card {
+    background-color: aqua;
+    width: 50%;
+    height: 100px;
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(77, 185, 242), rgb(67, 5, 67));
+}
+
+.search-bar , .submit-btn {
+    margin: 15px;
+    
+}
+
+.search-bar {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 20px;
+}
+
+.submit-btn {
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(219, 217, 217);
+}
+
+.submit-btn:active {
+    background-color: rgb(182, 179, 179);
+}
+
