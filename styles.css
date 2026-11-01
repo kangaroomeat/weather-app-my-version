@@ -12,12 +12,16 @@ body {
 .weather-card {
     background-color: aqua;
     width: 50%;
-    height: 100px;
+    
     margin: 40px auto;
     border-radius: 10px;
+    
+    background-image: linear-gradient(to right, rgb(77, 185, 242), rgb(67, 5, 67));
+}
+
+.flex-container {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, rgb(77, 185, 242), rgb(67, 5, 67));
 }
 
 .search-bar , .submit-btn {
@@ -31,6 +35,7 @@ body {
     border-radius: 5px;
     width: 70%;
     font-size: 20px;
+    
 }
 
 .submit-btn {
@@ -39,6 +44,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-left: 0px;
+    
 }
 
 .submit-btn:hover {
@@ -47,5 +53,22 @@ body {
 
 .submit-btn:active {
     background-color: rgb(182, 179, 179);
+}
+
+.city-temp  {
+    /*background-color: green;*/
+    text-align: center;
+    font-size: 70px;
+    padding: 5px;
+    color: white;
+}
+
+.city-name {
+    /*background-color: orange;*/
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 40px;
 }
 
